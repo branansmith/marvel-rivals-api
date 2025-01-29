@@ -25,3 +25,11 @@ Take that port information and type into your web browser:
 localhost:3000/v1/heroes
 
 This will give you all the hero information from the marvel rivals website.
+
+From here you will notice an 'id' associated with each hero.
+
+To get specific information about a hero, copy the id, for example **Peni Parker's** id is '3929765b-c856-44c9-b97a-eb965f3fbdf6', and type that into the search bar as follows:
+
+> localhost:3000/v1/heroes/3929765b-c856-44c9-b97a-eb965f3fbdf6
+
+This will return **only** information about **Peni Parker**
